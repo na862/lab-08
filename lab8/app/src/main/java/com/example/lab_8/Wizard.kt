@@ -1,5 +1,7 @@
 package com.example.lab_8
 
+//Texting Actions tab
+
 class Wizard(val name: String, var mana: Int, var spellPower: Int) {
     fun castSpell(spell: String): Int {
         when (spell) {
